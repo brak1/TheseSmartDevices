@@ -1,0 +1,8 @@
+How to setup VNC from one to another: 
+1. Open a PuTTY session, SSH, to target PC with a tunneling enabled for a port vnc can use - run tightvncserver
+2. Make sure tightvncserver has a password that you know so you can authenticate once you get tightvnc view open 
+3. Achieve number 2. by runnin vncpasswd or something like that 
+4. Run TightVNC Viewer with the IP address of the VNC server and the port that you did tunnel 
+5. Use password that you gave to tightvncserver.  Or use a key to authenticate. 
+
+
